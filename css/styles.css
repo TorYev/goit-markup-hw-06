@@ -23,6 +23,7 @@ body {
   
 }
 
+
 /* Small Text */
 .small_text{
 font-family: Roboto;
@@ -49,10 +50,15 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
 }
+
 .container {
-  padding: 0 15px;
+  width: 100%;
   max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
+  outline: 2px solid red;
+
 }
 .visually-hidden {
   position: absolute;
@@ -215,7 +221,7 @@ div{
 
 /* Main content */
 /* 1 Section */
-.first-part.section {
+.first-part {
   max-width: 1440px;
   background-color: var(--navy-blue);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
@@ -265,8 +271,8 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   color: var(--white);
 }
 /* 2 Section */
-.second-part.section {
-  padding: 120px 0;
+.second-part{
+  padding: 96px 0;
 }
 
 .second-part-icon{
@@ -275,11 +281,13 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 .second-part-list{
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .second-part-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
+  position: relative;
 }
 .container-second-part-icon{
   display: flex;
@@ -291,14 +299,16 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   padding: 24px 100px;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 .second-part-subtitle{
   color: var(--navy-blue);
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 500;
   line-height: 1.2; 
   letter-spacing: 0.02em; 
   margin-bottom: 8px;
+
 }
 
 .second-part-text{
@@ -326,6 +336,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 .third-part-list{
   display: flex;
+  
   gap: 24px;
 }
 
@@ -930,8 +941,6 @@ resize: none;
     color: var(--light-slate);
 }
 
-
-
 .modal-span-checkbox{
   width: 16px;
   height: 16px;
@@ -952,18 +961,8 @@ resize: none;
   fill: var(--cloud);
 }
 
-
-
 .modal-checkbox-link{
   color:var(--iris);
   display: inline-block;
 }
 
-/* .modal-icon-checkbox {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-} */
