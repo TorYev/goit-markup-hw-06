@@ -25,11 +25,18 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="page-nav">
-          <a class="header-logotype link" href="./index.html"
+        <nav class="page-nav"> 
+        <a class="header-logotype link" href="./index.html"
             >Web<span class="logo-span">Studio</span></a
           >
-          <ul class="header-list list"> 
+
+          <button class="mobile-menu-open js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="mobile-menu-icon" width="32" height="22">
+                  <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+
+          <!-- <ul class="header-list list">
             <li class="header-list-item">
               <a class="header-list-a link current" href="./index.html"
                 >Studio</a
@@ -43,10 +50,10 @@
             <li class="header-list-item">
               <a class="header-list-a link" href="">Contacts</a>
             </li>
-          </ul>
+          </ul> -->
         </nav>
-        
-        <address class="header-address">
+
+        <!-- <address class="header-address">
           <ul class="list address-list">
             <li class="address-list-item">
               <a
@@ -65,7 +72,7 @@
               >
             </li>
           </ul>
-        </address>
+        </address> -->
       </div>
     </header>
     <main>
@@ -153,7 +160,7 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
 
       <!--Our Team -->
 
@@ -504,7 +511,7 @@
         </div>
       </div>
     </footer> -->
-    
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-button" type="button" data-modal-close>
@@ -576,12 +583,12 @@
 
           <div class="modal-field modal-field-checkbox">
             <input
-            class="modal-checkbox-input visually-hidden"
+              class="modal-checkbox-input visually-hidden"
               type="checkbox"
               name="user-privacy"
-              value="true"              
+              value="true"
               id="user-privacy"
-              />
+            />
             <label class="modal-checkbox" for="user-privacy">
               <span class="modal-span-checkbox">
                 <svg class="modal-icon-checkbox" width="10" height="8">
@@ -596,6 +603,8 @@
         </form>
       </div>
     </div>
+    
     <script src="./js/modal.js"></script>
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>
