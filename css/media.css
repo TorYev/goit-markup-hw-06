@@ -21,6 +21,12 @@ letter-spacing: 1.12px;
 }
 }
 
+@media screen and (max-width:768px) {
+  .header-list, .header-address{
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .second-part-subtitle {
     text-align: left;
