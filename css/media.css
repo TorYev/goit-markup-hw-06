@@ -20,7 +20,14 @@ letter-spacing: 1.12px;
     display: none;
 }
 }
-
+@media screen and (max-width:767px) {
+  .header-list{
+    display: none;
+  }
+  .header-address{
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .second-part-subtitle {
     text-align: left;
