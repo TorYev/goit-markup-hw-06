@@ -1015,10 +1015,7 @@ div {
 }
 
 .mobile-menu-open {
-  position: absolute;
   padding: 0;
-  right: 16px;
-  top: 24px;
   cursor: pointer;
   border: none;
   outline: none;
