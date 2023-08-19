@@ -6,11 +6,11 @@
   }
   
 }
-/* @media screen and (min-width: 428px) and (max-width:767px) {
+@media screen and (min-width: 428px) and (max-width:767px) {
   .header > .container{
     max-width: 100%;
   }  
-} */
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
