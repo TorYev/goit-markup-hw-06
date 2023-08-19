@@ -16,7 +16,11 @@
     letter-spacing: 1.12px;
   }
 }
-
+@media screen and (min-width: 320px) and (max-width: 427px) { 
+  .modal { 
+ width: 270px; 
+ } 
+ }
 @media screen and (min-width: 768px) {
   .mobile-menu-open {
     display: none;
