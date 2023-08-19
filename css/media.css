@@ -18,12 +18,7 @@
   .container {
     max-width: 768px;
   }
-  .header-top {
-    width: 496px;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-  }
+
   .modal {
     padding: 72px 24px 16px 24px;
 }
