@@ -7,6 +7,9 @@
     width: 392px;
     height: 584px;
 }
+.socialmedia-list{
+  gap: 56px;
+}
 }
 @media screen and (min-width: 428px) and (max-width:767px) {
   .header > .container{
