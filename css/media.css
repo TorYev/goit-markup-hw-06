@@ -28,10 +28,10 @@
 .mobile-menu-open {
   display: none;
 }
-.second-part-subtitle {
+.advantages-subtitle {
   text-align: left;
 }
-.second-part-list-item {
+.advantages-list-item {
   width: calc((100% - 3 * 24px) / 2);
 }
 .our-team-list {
@@ -143,28 +143,28 @@ border: 1px solid rgba(255, 255, 255);
   display: flex;
   gap: 24px;
 }
-.third-part {
+.works {
   display: block;
 }
 .container {
   max-width: 1158px;
 }
-.second-part {
+.advantages {
   padding: 120px 0;
 }
-.second-part-list {
+.advantages-list {
   gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
   flex-wrap: nowrap;
 }
-.second-part-subtitle {
+.advantages-subtitle {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
-.container-second-part-icon {
+.container-advantages-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,7 +178,7 @@ border: 1px solid rgba(255, 255, 255);
 }
 
 @media screen and (max-width: 1157px) {
-  .third-part {
+  .works {
     display: none;
   }
 }
